@@ -19,7 +19,6 @@
 
 
 <body>
-
     <div class="navbar navbar-inverse" role="navigation">
         <a class="navbar-brand" href="#">
             <span class="hidden-xs">GameStore - магазин компьютерных игр</span>
@@ -30,7 +29,7 @@
     </div>
 
     <div class="visible-xs">
-        @Html.Action("Menu","Nav",new {horizontalNav = true })
+        @Html.Action("Menu", "Nav", new { horizontalNav = true })
     </div>
 
     <div class="row panel">
@@ -41,6 +40,5 @@
             @RenderBody()
         </div>
     </div>
-
 </body>
 </html>

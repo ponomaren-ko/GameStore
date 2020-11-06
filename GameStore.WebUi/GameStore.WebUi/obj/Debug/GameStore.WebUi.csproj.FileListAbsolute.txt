@@ -101,3 +101,10 @@ D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.WebUi\bin\EntityFramework
 D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.WebUi\bin\GameStore.Domain.dll.config
 D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.WebUi\bin\EntityFramework.xml
 D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.WebUi\bin\EntityFramework.SqlServer.xml
+D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.WebUi\bin\Antlr3.Runtime.dll
+D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.WebUi\bin\Newtonsoft.Json.dll
+D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.WebUi\bin\System.Web.Optimization.dll
+D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.WebUi\bin\WebGrease.dll
+D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.WebUi\bin\Antlr3.Runtime.pdb
+D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.WebUi\bin\Newtonsoft.Json.xml
+D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.WebUi\bin\System.Web.Optimization.xml

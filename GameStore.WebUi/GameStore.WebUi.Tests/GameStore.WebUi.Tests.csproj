@@ -89,6 +89,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminTests.cs" />
     <Compile Include="CartControllerTest.cs" />
     <Compile Include="CartEntityTests.cs" />
     <Compile Include="Mock.cs" />
