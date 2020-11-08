@@ -5,6 +5,7 @@ using System.Web.Mvc;
 
 namespace GameStore.WebUi.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         IGameRepository repository;
@@ -33,7 +34,7 @@ namespace GameStore.WebUi.Controllers
             if (ModelState.IsValid)
             {
                 repository.SaveGame(game);
-                TempData["message"] = string.Format("Изменения ы игре \"{0}\" были сохранены", game.Name );
+                TempData["message"] = string.Format("Изменения в игре \"{0}\" были сохранены", game.Name );
                 return RedirectToAction("Index");
 
             }
@@ -59,5 +60,7 @@ namespace GameStore.WebUi.Controllers
             }
             return RedirectToAction("Index");
         }
+
+        
     }
 }

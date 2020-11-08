@@ -5,6 +5,7 @@ using System.Web.Mvc;
 namespace GameStore.Domain.Entities
 {
     public class Game
+
     {
         [HiddenInput(DisplayValue = false)]
         public int GameId { get; set; }
@@ -26,5 +27,12 @@ namespace GameStore.Domain.Entities
         [Required]
         [Range(0.01, double.MaxValue, ErrorMessage = "Пожалуйста, введите положительное значение для цены")]
         public decimal Price { get; set; }
+
+
+        public Game()
+        {
+            Name = "Noname";
+            Description = "Empty";
+        }
     }
 }
