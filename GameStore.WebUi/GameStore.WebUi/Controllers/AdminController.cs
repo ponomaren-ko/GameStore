@@ -1,6 +1,8 @@
 ﻿using GameStore.Domain.Abstract;
 using GameStore.Domain.Entities;
+using System.IO;
 using System.Linq;
+using System.Web;
 using System.Web.Mvc;
 
 namespace GameStore.WebUi.Controllers
@@ -29,10 +31,17 @@ namespace GameStore.WebUi.Controllers
         }
 
         [HttpPost]
-        public ActionResult Edit(Game game)
+        public ActionResult Edit(Game game, HttpPostedFileBase image = null)
         {
             if (ModelState.IsValid)
-            {
+            {  
+                if(image != null)
+                {
+                    game.ImageMimeType = image.ContentType;
+                    game.ImageData = new byte[image.ContentLength];
+                    image.InputStream.Read(game.ImageData, 0, image.ContentLength);
+                }
+
                 repository.SaveGame(game);
                 TempData["message"] = string.Format("Изменения в игре \"{0}\" были сохранены", game.Name );
                 return RedirectToAction("Index");
@@ -44,6 +53,8 @@ namespace GameStore.WebUi.Controllers
             }
 
         }
+
+        
         public ViewResult Create()
         {
             return View("Edit", new Game());

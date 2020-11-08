@@ -22,3 +22,4 @@ D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.Domain\bin\Debug\EntityFr
 D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
 D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.Domain\bin\Debug\EntityFramework.xml
 D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hobby\Git\Repos\GameStore\GameStore.WebUi\GameStore.Domain\obj\Debug\GameStore.Domain.csprojAssemblyReference.cache
