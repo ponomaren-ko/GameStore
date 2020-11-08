@@ -1,17 +1,21 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <!--не Работает Jquery mobile-->
+
 
 
     <title>@ViewBag.Title</title>
 
-    @Scripts.Render("~/Scripts/jquery-1.4.5.min.js")
-    @Scripts.Render("~/Scripts/jquery-3.4.1.min.js")
-    @Styles.Render("~/Content/jquery.mobile-1.4.5.min.css")
+
+
+
+    <script src="~/Scripts/jquery-3.5.1.js"></script>
+    <script src="~/Scripts/jquery.mobile-1.4.5.min.js"></script>
+    <!--не Работает Jquery mobile , работает только с JQ версией 2.Х-->
+    <link href="~/Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
 </head>
 <body>
     <div data-role="page" id="page1">
